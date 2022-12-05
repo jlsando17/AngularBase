@@ -6,7 +6,7 @@ import { Component } from "@angular/core";
     templateUrl:'heroe.component.html'
 })
 export class Heroecomponent{
- 
+  
     nombre:string='ironman';
     edad:number=31;
 

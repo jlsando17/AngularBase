@@ -8,10 +8,12 @@ import { ListadoComponent } from './listado/listado.component';
 @NgModule({
     declarations:[
         Heroecomponent,
-        ListadoComponent
-    ],
+        ListadoComponent,
+        
+    ], 
     exports:[
-        ListadoComponent
+        ListadoComponent,
+        Heroecomponent
     ],
     imports: [
  CommonModule
